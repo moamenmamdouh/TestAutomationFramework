@@ -12,7 +12,7 @@ public class BaseTests {
         driver.get("https://the-internet.herokuapp.com/"); //navigate to a specific url
         driver.manage().window().maximize(); //maximize window size
         System.out.println(driver.getTitle()); //printing page's title
-        //driver.quit(); //close driver
+        driver.quit(); //close driver
     }
     //main function
 
